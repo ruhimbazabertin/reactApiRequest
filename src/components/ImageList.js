@@ -1,4 +1,4 @@
-import { image } from 'faker';
+import './ImageList.css';
 import React from 'react';
 
 const ImageList = (props) => {
