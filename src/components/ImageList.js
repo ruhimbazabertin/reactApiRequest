@@ -9,8 +9,10 @@ const ImageList = (props) => {
         }); 
 
     return (
+        <div ui segment>
         <div className="image-list">
             <span>{images}</span>
+            </div>
             </div>
     )
 };
