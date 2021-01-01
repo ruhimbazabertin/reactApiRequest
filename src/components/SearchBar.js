@@ -15,7 +15,7 @@ class SearchBar extends React.Component {
             <form onSubmit={this.onFormSubmit} className="ui from">
                 <div className="field">
                 <label>Image Search</label>
-               <input type="text" class="form-control" placeholder="Search" aria-label="Search"
+               <input type="text" className="form-control" placeholder="Search" aria-label="Search"
                value={this.state.term} 
                onChange={(e)=> this.setState({term: e.target.value})}    
                /> 
